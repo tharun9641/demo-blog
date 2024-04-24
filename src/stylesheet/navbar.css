@@ -1,0 +1,45 @@
+.navbar{
+    width: 100%;
+    background-color: black;
+    color: lightgreen;
+    position: fixed;
+    z-index: 10;
+}
+
+.navbar *{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: lightgreen;
+}
+
+.div-login-nav{
+    /* display: flex;
+    justify-content: right; */
+    width: 100%;
+    gap: 10px;
+}
+
+.div-add{
+    width: 2.5%;
+    justify-content: right;
+}
+
+.div-welcome{
+    width: 92.5%;
+    justify-content: center;
+}
+
+.login-info{
+    width: 100%;
+    text-align: right;
+}
+
+.login-info *{
+    width: 100%;
+}
+

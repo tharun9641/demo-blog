@@ -1,0 +1,51 @@
+body{
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+::-webkit-scrollbar{
+  width: 0px;
+  border-radius: 10px;
+}
+.app-container{
+  display: block;
+  font-size: 20px;
+  text-align: center;
+}
+.collapse-login{
+  max-height: 7.5vh;
+  overflow: hidden;
+  visibility: hidden 0.5s ease;
+  transition: max-height 0.5s ease;
+}
+
+.collapse-Add {
+  max-height: 0;
+  overflow: hidden;
+  visibility: hidden 0.5s ease;
+  transition: max-height 0.5s ease;
+}
+
+.expand-login{
+  max-height: 75vh;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+}
+
+.nav-container {
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+/* .display-carousel{
+  display: flex;
+  width: 80%;
+  min-height: 75vh;
+  margin: auto;
+  background-color: lightskyblue;
+  justify-content: center;
+  align-items: center;
+} */

@@ -1,0 +1,30 @@
+.carousel-item{
+    position: relative;
+    width: 60%;
+    min-height: 50vh;
+    color: white;
+    text-align: justify;
+    display: flex;
+    left: 5%;
+}
+
+.carousel-img{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-img img{
+    resize:  both;
+    position: relative;
+    left: 25%;
+    width: 30%;
+    height: 20vh;
+}
+
+@media (max-width: 500px) {
+    .carousel-img img {
+        width: 50%;
+        height: auto;
+    }
+}

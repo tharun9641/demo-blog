@@ -1,0 +1,46 @@
+.login-conatiner{
+    position: relative;
+    padding-top: 2%;
+    width: 100%;
+    min-height: 50vh;
+    max-height: 75vh;
+    display: block;
+}
+
+.login-border{
+    position: relative;
+    top: 10vh;
+}
+.login-form-container{
+    width: 40vh;
+    margin: auto;
+    text-align: justify;
+    padding: 0.5rem;
+}
+
+.login-form-container *{
+    width: 100%;
+}
+
+.login-form-container button{
+    height: 40%;
+}
+
+.justify-button{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.login-header{
+    width: 100%;
+    display: flex;
+    /* gap : 2.5%; */
+    justify-content: center;
+    cursor: pointer;
+}
+
+.login-header div{
+    width: 20vh;
+    border-radius: 5px;
+}

@@ -1,0 +1,9 @@
+.add-entry{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.entry-container{
+    text-align: left;
+}
