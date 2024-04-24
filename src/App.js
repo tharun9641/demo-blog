@@ -15,6 +15,7 @@ function App() {
   });
 
   const ShowLogin = () => {
+    setAdd(false);
     setLogin(!expandLogin);
   };
 
@@ -23,6 +24,7 @@ function App() {
   };
 
   const ShowAdd = () => {
+    setLogin(false);
     setAdd(!expandAdd);
   };
   return (
